@@ -10,6 +10,10 @@
 
 [Download RoadScan Demo APK](releases/RoadScan-demo-v0.1.0.apk)
 
+## ویدئوی دمو
+
+[مشاهده و دانلود ویدئوی دمو](docs/demo.mp4)
+
 SHA-256:
 
 ```text
