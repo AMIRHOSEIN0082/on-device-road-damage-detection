@@ -40,6 +40,8 @@ SHA-256:
 
 ## مستندات
 
+- [دانلود PDF معرفی اپلیکیشن موبایل](docs/roadscan-mobile-application-fa.pdf)
+- [دانلود PDF اطلاعات فنی مدل](docs/roadscan-model-information-fa.pdf)
 - [معماری نسخه دمو](docs/architecture.md)
 - [مشخصات مدل](docs/model-card.md)
 - [اطلاعات فایل اجرایی](releases/README.md)
