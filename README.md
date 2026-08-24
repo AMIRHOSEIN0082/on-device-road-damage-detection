@@ -47,6 +47,7 @@ SHA-256:
 ## مستندات
 
 - **[سند اصلی راهبرد، مسئله و نقشه راه RoadScan](docs/00-START-HERE-RoadScan-Strategy-FA.pdf)**
+- **[گزارش ۱۰۱ صفحه‌ای پیش‌نمایش استخراج و خروجی مدل](docs/roadscan-model-extraction-preview.pdf)**
 - [دانلود PDF معرفی اپلیکیشن موبایل](docs/roadscan-mobile-application-fa.pdf)
 - [دانلود PDF اطلاعات فنی مدل](docs/roadscan-model-information-fa.pdf)
 - [معماری نسخه دمو](docs/architecture.md)
