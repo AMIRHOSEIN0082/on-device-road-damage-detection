@@ -8,7 +8,7 @@
 
 برای آشنایی با مسئله، راهبرد خردسازی، وضعیت MVP و نقشه راه «چشم متحرک شهرهای آینده ایران»، ابتدا سند اصلی زیر را مطالعه کنید:
 
-**[مطالعه و دانلود سند اصلی راهبرد RoadScan](docs/00-START-HERE-RoadScan-Strategy-FA.pdf)**
+**[مطالعه و دانلود سند اصلی راهبرد RoadScan](docs-single-class/00-START-HERE-RoadScan-Strategy-FA.pdf)**
 
 ## دریافت نسخه دمو
 
@@ -18,7 +18,7 @@
 
 ## ویدئوی دمو
 
-[مشاهده و دانلود ویدئوی دمو](docs/demo.mp4)
+[مشاهده و دانلود ویدئوی دمو](docs-single-class/roadscan-detected-demo-1080p.mp4)
 
 SHA-256:
 
@@ -46,17 +46,26 @@ SHA-256:
 
 ## مستندات
 
-- **[سند اصلی راهبرد، مسئله و نقشه راه RoadScan](docs/00-START-HERE-RoadScan-Strategy-FA.pdf)**
-- **[گزارش ۱۰۱ صفحه‌ای پیش‌نمایش استخراج و خروجی مدل](docs/roadscan-model-extraction-preview.pdf)**
-- [دانلود PDF معرفی اپلیکیشن موبایل](docs/roadscan-mobile-application-fa.pdf)
-- [دانلود PDF اطلاعات فنی مدل](docs/roadscan-model-information-fa.pdf)
-- [معماری نسخه دمو](docs/architecture.md)
-- [مشخصات مدل](docs/model-card.md)
+- **[سند اصلی راهبرد، مسئله و نقشه راه RoadScan](docs-single-class/00-START-HERE-RoadScan-Strategy-FA.pdf)**
+- **[گزارش ۱۰۱ صفحه‌ای پیش‌نمایش استخراج و خروجی مدل](docs-single-class/roadscan-model-extraction-preview.pdf)**
+- [دانلود PDF معرفی اپلیکیشن موبایل](docs-single-class/roadscan-mobile-application-fa.pdf)
+- [دانلود PDF اطلاعات فنی مدل](docs-single-class/roadscan-model-information-fa.pdf)
+- [معماری نسخه دمو](docs-single-class/architecture.md)
+- [مشخصات مدل](docs-single-class/model-card.md)
 - [اطلاعات فایل اجرایی](releases/README.md)
+
+## توسعه بعدی: مدل ۵ کلاسه (در حال آزمایش داخلی)
+
+نسخه‌ی بعدی مدل، به‌جای تشخیص تک‌کلاسه‌ی `road_damage`، پنج نوع خرابی را جدا از هم تشخیص می‌دهد
+(`longitudinal_crack`, `transverse_crack`, `alligator_crack`, `repair`, `pothole`). این نسخه هنوز
+به‌صورت رسمی منتشر نشده و APK فوق همچنان همان نسخه‌ی تک‌کلاسه است؛ جزئیات مدل و ابزار تست لوکالش:
+
+- [مشخصات مدل ۵ کلاسه](5-class-model/model-card.md)
+- [پنل تست لوکال (Streamlit) برای این مدل](5-class-model/local-testing-panel/README.md)
 
 ## محدودیت‌ها
 
-- مدل فعلی فقط وجود خرابی عمومی سطح جاده را تشخیص می‌دهد.
+- مدل فعلی (نسخه‌ی منتشرشده) فقط وجود خرابی عمومی سطح جاده را تشخیص می‌دهد.
 - نوع و شدت دقیق خرابی را تعیین نمی‌کند.
 - ثبت GPS واقعی و نمایش رخداد روی نقشه واقعی در این نسخه وجود ندارد.
 - Backend، داشبورد وب و ارسال رخداد به سرور پیاده‌سازی نشده است.
